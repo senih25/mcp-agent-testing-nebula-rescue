@@ -1,0 +1,35 @@
+:root { color-scheme:dark; font-family:"Segoe UI",Arial,sans-serif; background:#0b1428; color:#eaf1ff }
+* {box-sizing:border-box} body{margin:0;background:#0b1428}
+button,input{font:inherit}button{cursor:pointer}button:focus-visible,input:focus-visible{outline:3px solid #8eeff2;outline-offset:3px}
+.broken-inner{min-width:1120px;max-width:1250px;margin:0 auto;padding:0 36px}
+.broken-header{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #243455;height:78px}
+.logo{font-size:24px;font-weight:800;letter-spacing:3px}.logo small{font-size:10px;letter-spacing:1px;color:#9eaac7}.logo-mark{color:#d4b0ff}
+.failure-label{font-size:10px;letter-spacing:1.7px;border:1px solid #9d5364;border-radius:25px;color:#ffc4bb;padding:11px}
+.banner{display:flex;justify-content:space-between;min-height:286px;align-items:center}
+.eyebrow{color:#8fb6ce;font-size:10px;letter-spacing:2px;font-weight:800}
+h1{font-size:58px;line-height:1.01;letter-spacing:-2px;margin:12px 0;color:#f0f1fe}
+h1 em{color:#c9a4ee;font-family:Georgia,serif;font-weight:400}
+.intro{max-width:400px;color:#a9b5ca;line-height:1.6;font-size:14px}
+.illustration{position:relative;width:280px;height:240px;display:grid;place-items:center}
+.old-planet{width:170px;height:170px;border-radius:50%;background:radial-gradient(circle at 32% 28%,#a59bf5,#444d9d 60%,#151b53);box-shadow:0 0 70px #9278ed33}
+.orbit{position:absolute;width:260px;height:90px;border:2px solid #d6adeb88;border-radius:50%;transform:rotate(-30deg)}
+.orbit-two{transform:rotate(28deg);border-color:#62bec666}
+.defect-note{border:1px solid #784a59;background:#2d2339;padding:16px 19px;display:flex;justify-content:space-between;gap:10px;font-size:12px}
+.defect-note strong{color:#ffc3ad}.defect-note span{color:#c4bdcf}
+.broken-grid{display:grid;grid-template-columns:1fr 310px;gap:24px;margin:28px 0}
+.section-head{display:flex;justify-content:space-between;align-items:center}.section-head h2,.booking h2{font-size:23px;letter-spacing:-.5px}
+#result-count{font-size:12px;color:#a9b4d3}.field-label,.booking label{display:block;font-size:11px;color:#bdc8e8;margin:0 0 8px}
+.search,.booking input{background:#172741;border:1px solid #385070;border-radius:6px;color:white;padding:14px;width:100%}
+.search-status{font-size:12px;color:#c5a5b6;margin:12px 0}
+.cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.old-card{min-height:143px;padding:17px;background:#14213c;border:1px solid #314262;border-radius:8px}
+.old-card .tiny{font-size:10px;letter-spacing:1.5px;color:#9bb6c9}
+.old-card h3{margin:12px 0 6px;font-size:17px}.old-card p{color:#a4b1cb;font-size:12px;line-height:1.5}
+.booking{padding:23px;background:#1d2941;border:1px solid #394760;border-radius:9px;align-self:start}
+.booking p{color:#aab8ca;font-size:12px;line-height:1.6}
+.seat-indicator{background:#0e1b30;border-radius:8px;padding:15px;display:flex;justify-content:space-between;align-items:center;margin:20px 0}
+.seat-indicator span{font-size:11px}.seat-indicator strong{font-size:35px;color:#dac4ff}
+.booking button{width:100%;padding:14px;margin:12px 0 8px;border:0;border-radius:7px;background:#9983d5;color:#0d1a31;font-weight:800}
+#booking-status,#guide-status{font-size:11px;color:#c9d6de;min-height:25px}
+.separator{height:1px;background:#465372;margin:19px 0}.booking h3{font-size:16px}
+footer{border-top:1px solid #344463;color:#8f9ebd;font-size:11px;letter-spacing:1px;padding:24px 0}

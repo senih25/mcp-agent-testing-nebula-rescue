@@ -1,0 +1,10 @@
+{
+  "kind": "synthetic_before_mobile",
+  "ranAt": "2026-10-23T23:16:25.815Z",
+  "configuredViewport": 390,
+  "visualViewport": 768,
+  "clientWidth": 390,
+  "documentWidth": 1121,
+  "seededMinWidth": "1120px",
+  "reproduced": true
+}

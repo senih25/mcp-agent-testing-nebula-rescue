@@ -1,0 +1,24 @@
+✔ lowercase exhibit search repairs the seeded failure (0.8598ms)
+✔ search ignores surrounding whitespace and case (0.1088ms)
+✔ searches synthetic metadata and tags (0.0778ms)
+✔ category filter selects only matching exhibits (0.1636ms)
+✔ combined query and category works (0.1271ms)
+✔ no results returns a useful message (0.1666ms)
+✔ invalid and unavailable feed data fail safely (0.0751ms)
+✔ bad search input and zone are rejected (0.0589ms)
+✔ reservation subtracts availability and reports total (0.2761ms)
+✔ successive reservations preserve the seat invariant (0.1316ms)
+✔ blank and malformed quantities are rejected (0.0874ms)
+✔ fractional, negative and excessive quantities are rejected (0.0701ms)
+✔ insufficient capacity refuses reservation (0.0479ms)
+✔ malformed inventories refuse reservation (0.0435ms)
+✔ quote rejects invalid guests and calculates fictional credits (0.0656ms)
+✔ fixture has unique names, IDs and only synthetic categories (0.0935ms)
+ℹ tests 16
+ℹ suites 0
+ℹ pass 16
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 59.6794

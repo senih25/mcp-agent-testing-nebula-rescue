@@ -1,0 +1,60 @@
+{
+  "purpose": "responsive-regression-matrix",
+  "ranAt": "2026-10-24",
+  "successfulViewports": 4,
+  "totalViewports": 4,
+  "viewports": [
+    {
+      "label": "Mobile portrait",
+      "configured": "390x844x1,mobile,touch",
+      "logical": 390,
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "visualWidth": 390,
+      "exhibits": 6,
+      "passed": 29,
+      "failed": 0,
+      "total": 29,
+      "fit": true
+    },
+    {
+      "label": "Split-screen",
+      "configured": "768x816x1",
+      "logical": 853,
+      "clientWidth": 836,
+      "scrollWidth": 836,
+      "visualWidth": 836,
+      "exhibits": 6,
+      "passed": 29,
+      "failed": 0,
+      "total": 29,
+      "fit": true
+    },
+    {
+      "label": "Tablet",
+      "configured": "820x1180x1",
+      "logical": 911,
+      "clientWidth": 894,
+      "scrollWidth": 894,
+      "visualWidth": 894,
+      "exhibits": 6,
+      "passed": 29,
+      "failed": 0,
+      "total": 29,
+      "fit": true
+    },
+    {
+      "label": "Desktop",
+      "configured": "1440x900x1",
+      "logical": 1600,
+      "clientWidth": 1583,
+      "scrollWidth": 1583,
+      "visualWidth": 1583,
+      "exhibits": 6,
+      "passed": 29,
+      "failed": 0,
+      "total": 29,
+      "fit": true
+    }
+  ]
+}

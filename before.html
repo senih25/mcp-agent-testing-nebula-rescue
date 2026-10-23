@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self' data:; connect-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; object-src 'none'; form-action 'none'; base-uri 'none'">
+<link rel="icon" type="image/svg+xml" href="./favicon.svg">
+<title>NEBULA — Broken Experience | Synthetic Demo</title>
+<link rel="stylesheet" href="./before.css">
+<script src="./museum-data.js" defer></script><script src="./broken.js" defer></script>
+</head>
+<body>
+<div class="broken-inner">
+<header class="broken-header">
+<div class="logo"><span class="logo-mark">✳</span> NEBULA <small>/ MUSEUM OF TOMORROW</small></div>
+<div class="failure-label">● SYNTHETIC RECOVERY EXERCISE</div>
+</header>
+<main>
+<section class="banner">
+<div><p class="eyebrow">ARCHIVED PROTOTYPE // BUILD 00</p><h1>Something is<br><em>out of orbit.</em></h1><p class="intro">An intentionally broken museum experience. Explore the defects before the rescue begins.</p></div>
+<div class="illustration"><div class="old-planet"></div><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div></div>
+</section>
+<div class="defect-note"><strong>BEFORE · DELIBERATELY SEEDED DEFECTS</strong><span>Search accuracy · Reservation counter · Mobile layout · Audio guide button</span></div>
+<section class="broken-grid">
+<div class="content-column">
+<div class="section-head"><h2>Explore the exhibits</h2><span id="result-count">6 exhibits</span></div>
+<label class="field-label" for="search-input">Search exhibitions</label>
+<input id="search-input" class="search" type="search" placeholder="Try: crystal" autocomplete="off">
+<div id="search-status" class="search-status" aria-live="polite">Showing all imaginary exhibits</div>
+<div class="cards" id="exhibit-grid"></div>
+</div>
+<aside class="booking">
+<p class="eyebrow">EXPERIENCE / LIVE</p><h2>Reserve your visit</h2>
+<p>Simulation only. No payment and no personal information.</p>
+<div class="seat-indicator"><span>Available demo seats</span><strong id="seats-left">18</strong></div>
+<label for="guest-count">Guests</label><input id="guest-count" type="number" value="2" min="1" max="6">
+<button id="reserve-button" type="button">Reserve demo seats ↗</button>
+<div id="booking-status" aria-live="polite">No reservation yet.</div>
+<div class="separator"></div>
+<h3>Immersive audio guide</h3><p>Hear the museum come to life. This control should activate guide captions.</p>
+<button id="guide-button" type="button" aria-pressed="false">Activate audio guide</button>
+<div id="guide-status" role="status">Guide is off.</div>
+</aside>
+</section>
+</main>
+<footer>NEBULA · Imaginary museum · Entirely synthetic visitor data · No real reservations</footer>
+</div>
+</body>
+</html>

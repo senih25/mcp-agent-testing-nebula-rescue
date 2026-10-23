@@ -1,0 +1,221 @@
+{
+  "suite": "NEBULA restored website — browser regression",
+  "ranAt": "2026-10-23T23:16:35.589Z",
+  "total": 29,
+  "passed": 29,
+  "failed": 0,
+  "status": "PASS",
+  "results": [
+    {
+      "id": "T01",
+      "name": "Lowercase exhibit search",
+      "ok": true,
+      "status": "PASS",
+      "detail": "Assertion satisfied"
+    },
+    {
+      "id": "T02",
+      "name": "Mixed-case normalized search",
+      "ok": true,
+      "status": "PASS",
+      "detail": "Assertion satisfied"
+    },
+    {
+      "id": "T03",
+      "name": "Tag search finds a world",
+      "ok": true,
+      "status": "PASS",
+      "detail": "Assertion satisfied"
+    },
+    {
+      "id": "T04",
+      "name": "Category filter isolates cosmic",
+      "ok": true,
+      "status": "PASS",
+      "detail": "Assertion satisfied"
+    },
+    {
+      "id": "T05",
+      "name": "Combined search and category",
+      "ok": true,
+      "status": "PASS",
+      "detail": "Assertion satisfied"
+    },
+    {
+      "id": "T06",
+      "name": "No-match state is safe",
+      "ok": true,
+      "status": "PASS",
+      "detail": "Assertion satisfied"
+    },
+    {
+      "id": "T07",
+      "name": "Invalid search value rejected",
+      "ok": true,
+      "status": "PASS",
+      "detail": "Assertion satisfied"
+    },
+    {
+      "id": "T08",
+      "name": "Invalid zone rejected",
+      "ok": true,
+      "status": "PASS",
+      "detail": "Assertion satisfied"
+    },
+    {
+      "id": "T09",
+      "name": "Missing feed is a safe error",
+      "ok": true,
+      "status": "PASS",
+      "detail": "Assertion satisfied"
+    },
+    {
+      "id": "T10",
+      "name": "Reservation subtracts two seats",
+      "ok": true,
+      "status": "PASS",
+      "detail": "Assertion satisfied"
+    },
+    {
+      "id": "T11",
+      "name": "Reservation arithmetic is exact",
+      "ok": true,
+      "status": "PASS",
+      "detail": "Assertion satisfied"
+    },
+    {
+      "id": "T12",
+      "name": "Repeated reservations consistent",
+      "ok": true,
+      "status": "PASS",
+      "detail": "Assertion satisfied"
+    },
+    {
+      "id": "T13",
+      "name": "Blank guest count rejected",
+      "ok": true,
+      "status": "PASS",
+      "detail": "Assertion satisfied"
+    },
+    {
+      "id": "T14",
+      "name": "Fractional guest count rejected",
+      "ok": true,
+      "status": "PASS",
+      "detail": "Assertion satisfied"
+    },
+    {
+      "id": "T15",
+      "name": "Negative guest count rejected",
+      "ok": true,
+      "status": "PASS",
+      "detail": "Assertion satisfied"
+    },
+    {
+      "id": "T16",
+      "name": "Maximum guest count enforced",
+      "ok": true,
+      "status": "PASS",
+      "detail": "Assertion satisfied"
+    },
+    {
+      "id": "T17",
+      "name": "Excess reservation rejected",
+      "ok": true,
+      "status": "PASS",
+      "detail": "Assertion satisfied"
+    },
+    {
+      "id": "T18",
+      "name": "Invalid inventory rejected",
+      "ok": true,
+      "status": "PASS",
+      "detail": "Assertion satisfied"
+    },
+    {
+      "id": "T19",
+      "name": "Invalid quote is not calculated",
+      "ok": true,
+      "status": "PASS",
+      "detail": "Assertion satisfied"
+    },
+    {
+      "id": "T20",
+      "name": "Guide toggle updates UI state",
+      "ok": true,
+      "status": "PASS",
+      "detail": "Assertion satisfied"
+    },
+    {
+      "id": "T21",
+      "name": "Outage and recovery path work",
+      "ok": true,
+      "status": "PASS",
+      "detail": "Assertion satisfied"
+    },
+    {
+      "id": "T22",
+      "name": "Exhibit details open and close",
+      "ok": true,
+      "status": "PASS",
+      "detail": "Assertion satisfied"
+    },
+    {
+      "id": "T23",
+      "name": "Document fits viewport",
+      "ok": true,
+      "status": "PASS",
+      "detail": "Assertion satisfied"
+    },
+    {
+      "id": "T24",
+      "name": "Controls have accessible names",
+      "ok": true,
+      "status": "PASS",
+      "detail": "Assertion satisfied"
+    },
+    {
+      "id": "T25",
+      "name": "No third-party resources linked",
+      "ok": true,
+      "status": "PASS",
+      "detail": "Assertion satisfied"
+    },
+    {
+      "id": "T26",
+      "name": "Active motion preference is respected",
+      "ok": true,
+      "status": "PASS",
+      "detail": "Assertion satisfied"
+    },
+    {
+      "id": "T27",
+      "name": "Synthetic disclosure visible",
+      "ok": true,
+      "status": "PASS",
+      "detail": "Assertion satisfied"
+    },
+    {
+      "id": "T28",
+      "name": "Search input interacts with UI",
+      "ok": true,
+      "status": "PASS",
+      "detail": "Assertion satisfied"
+    },
+    {
+      "id": "T29",
+      "name": "Booking control updates inventory",
+      "ok": true,
+      "status": "PASS",
+      "detail": "Assertion satisfied"
+    }
+  ],
+  "environment": {
+    "page": "NEBULA repaired synthetic site",
+    "logicalViewport": 390,
+    "clientWidth": 390,
+    "documentWidth": 390,
+    "visualViewport": 390,
+    "mobileWidthFits": true
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "synthetic_before_reproduction",
+  "ranAt": "2026-10-23T23:16:17.118Z",
+  "defects": [
+    {
+      "id": "F01",
+      "expected": 1,
+      "actual": 0,
+      "reproduced": true
+    },
+    {
+      "id": "F02",
+      "expected": 16,
+      "actual": 20,
+      "quantity": 2,
+      "reproduced": true
+    },
+    {
+      "id": "F04",
+      "expected": "Guide is on.",
+      "actual": "Guide is off.",
+      "prior": "Guide is off.",
+      "reproduced": true
+    }
+  ],
+  "pageLabel": "BEFORE synthetic site"
+}
