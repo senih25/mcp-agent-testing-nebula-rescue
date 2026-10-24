@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://senih25.github.io/mcp-agent-testing-nebula-rescue/sitemap.xml
