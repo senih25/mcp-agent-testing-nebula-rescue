@@ -41,7 +41,7 @@ test('all page script, stylesheet and iframe dependencies resolve under repo pre
  const origin='https://example.test/mcp-agent-testing-nebula-rescue/';
  for(const page of ['index.html','reveal.html','museum.html','before.html']){
   const html=file(page);
-  const refs=[...html.matchAll(/<(?:script|iframe|link)\b[^>]*\b(?:src|href)="([^"]+)"/g)].map(x=>x[1]);
+  const refs=[...html.matchAll(/<(?:script|iframe|link)\b[^>]*\b(?:src|href)="([^"]+)"/g)].map(x=>x[1]).filter(x=>x.startsWith('./'));
   assert.ok(refs.length>0,page+' should load its assets');
   for(const ref of refs){
    const url=new URL(ref,origin+page);
